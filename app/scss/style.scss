@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/app/fonts/400/Roboto-Regular.woff2") format("woff2"),
+           url("/app/fonts/400/Roboto-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/app/fonts/700/Roboto-Regular.woff2") format("woff2"),
+           url("/app/fonts/700/Roboto-Regular.woff") format("woff");
+}
+
+
+$gray: #546e7a;
+$green: #8bc34a;
+$red: #e74c3c; 
+$black-blue: #263238;
+html, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,li,p,a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 20px;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.header__box {
+    display: flex;
+}
+.header__help {
+    color: $gray;
+}
+.header__help-btn {
+    color: $red;
+}
+.header__help-phone {
+    color: $gray;
+    margin-right: 66px;
+}
+.btn-login {
+    color: #fff;
+    background: $green;
+    padding: 10px 20px 9px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.btn-register {
+    color: #fff;
+    background: $red;
+    padding: 10px 13px 9px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.header__bottom {
+    background: $black-blue;
+}
+.menu {
+    display: flex;
+    padding: 23px 0;
+}
+.menu-item a {
+    color: #fff;
+    margin-right: 35px;
+}
