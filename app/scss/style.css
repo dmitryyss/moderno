@@ -385,4 +385,50 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p, a {
           box-shadow: 0px 1px 3px 0px rgba(204, 216, 228, 0.75);
   cursor: pointer;
 }
+
+.slider {
+  margin: 100px 0 120px;
+}
+
+.slider__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-dots li {
+  margin-right: 6px;
+}
+
+.slick-dots li button {
+  border: none;
+  font-size: 0px;
+  height: 16px;
+  width: 16px;
+  background: #e8e8e8;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.slick-dots .slick-active button {
+  background: #8bc34a;
+}
 /*# sourceMappingURL=style.css.map */
