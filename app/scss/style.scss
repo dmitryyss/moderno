@@ -452,3 +452,33 @@ h1,h2,h3,h4,h5,h6,ul,ol,li,p,a {
     font-weight: 700;
 }
 // end. author
+
+
+// start work
+.work {
+    margin: 60px 0 120px;
+}
+.prodcut__title.work__title {
+    text-align: center;
+}
+.work__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work__inner-item {
+    max-width: 370px;
+    background: #f8f8f8;
+}
+.work-img {
+    width: 100%;
+}
+.work__inner-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: $black-blue;
+    text-align: center;
+    padding: 25px 0 20px;
+}
+// end. work

@@ -573,4 +573,43 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p, a {
   padding: 20px 40px;
   font-weight: 700;
 }
+
+.work {
+  margin: 60px 0 120px;
+}
+
+.prodcut__title.work__title {
+  text-align: center;
+}
+
+.work__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.work__inner-item {
+  max-width: 370px;
+  background: #f8f8f8;
+}
+
+.work-img {
+  width: 100%;
+}
+
+.work__inner-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #263238;
+  text-align: center;
+  padding: 25px 0 20px;
+}
 /*# sourceMappingURL=style.css.map */
