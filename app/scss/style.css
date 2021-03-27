@@ -1,4 +1,42 @@
 @font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?dz69yx");
+  src: url("../fonts/icomoon.eot?dz69yx#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?dz69yx") format("truetype"), url("../fonts/fonts/icomoon.woff?dz69yx") format("woff"), url("../fonts/icomoon.svg?dz69yx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+.icon-phone:before {
+  content: "\f095";
+}
+
+.icon-angle-right:before {
+  content: "\f105";
+}
+
+.icon-location-arrow:before {
+  content: "\f124";
+}
+
+@font-face {
   font-family: "Roboto";
   src: url("/app/fonts/700/Roboto-Bold.woff2") format("woff2"), url("/app/fonts/700/Roboto-Bold.woff") format("woff");
 }
@@ -611,5 +649,194 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p, a {
   color: #263238;
   text-align: center;
   padding: 25px 0 20px;
+}
+
+.footer {
+  background: #263238;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 100px 0 90px;
+}
+
+.footer__inner-item {
+  color: #b7c3c8;
+}
+
+.footer__blog-1 {
+  max-width: 250px;
+}
+
+.footer__inner-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.footer__inner-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #8bc34a;
+}
+
+.footer__inner-text {
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-bottom: 25px;
+}
+
+.footer__inner-map {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 30px;
+  margin-bottom: 13px;
+  line-height: 1.5em;
+  position: relative;
+}
+
+.footer__inner-map::before {
+  content: "\f041";
+  font-size: 16px;
+  color: #8bc34a;
+  font-family: 'icomoon' !important;
+  position: absolute;
+  left: 0;
+}
+
+.footer__inner-phone {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 30px;
+  position: relative;
+}
+
+.footer__inner-phone::before {
+  content: "\f095";
+  font-size: 16px;
+  color: #8bc34a;
+  font-family: 'icomoon' !important;
+  position: absolute;
+  left: 0;
+}
+
+.footer__blog-2, .footer__blog-3 {
+  max-width: 215px;
+}
+
+.footer__menu-item {
+  padding-left: 20px;
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.footer__menu-item::before {
+  content: "\f105";
+  color: #8bc34a;
+  font-family: 'icomoon' !important;
+  position: absolute;
+  left: 0;
+}
+
+.footer__menu-link {
+  color: #b7c3c8;
+}
+
+.footer__box-images {
+  margin-bottom: 30px;
+}
+
+.footer__box-link {
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.footer__form-title {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer__form {
+  position: relative;
+  width: 100%;
+}
+
+.footer__form-input {
+  height: 40px;
+  color: #fff;
+  background: #2f3c43;
+  border: none;
+  padding-left: 13px;
+  padding-right: 55px;
+  width: 100%;
+}
+
+.footer__form-input::-webkit-input-placeholder {
+  color: #697378;
+}
+
+.footer__form-input:-ms-input-placeholder {
+  color: #697378;
+}
+
+.footer__form-input::-ms-input-placeholder {
+  color: #697378;
+}
+
+.footer__form-input::placeholder {
+  color: #697378;
+}
+
+.footer__inner-item.footer__blog-4 {
+  max-width: 260px;
+  width: 100%;
+}
+
+.footer__form-button {
+  background: #8bc34a;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 42px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.footer__form-button::before {
+  content: "\f124";
+  font-family: 'icomoon' !important;
+  top: 0;
+  right: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer__bottom {
+  text-align: center;
+  border-top: 1px solid #424d53;
+  padding: 20px 0 30px;
+}
+
+.footer__bottom-text {
+  color: #919699;
 }
 /*# sourceMappingURL=style.css.map */

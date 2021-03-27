@@ -1,3 +1,5 @@
+@import "_icomoon.scss";
+
 @font-face {
     font-family: "Roboto";
     src: url("/app/fonts/700/Roboto-Bold.woff2") format("woff2"),
@@ -8,6 +10,7 @@
     src: url("/app/fonts/400/Roboto-Regular.woff2") format("woff2"),
            url("/app/fonts/400/Roboto-Regular.woff") format("woff");
 }
+
 
 
 
@@ -482,3 +485,157 @@ h1,h2,h3,h4,h5,h6,ul,ol,li,p,a {
     padding: 25px 0 20px;
 }
 // end. work
+
+// start footer
+.footer {
+    background: $black-blue;
+}
+.footer__inner {
+    display: flex;justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 100px 0 90px;
+}
+.footer__inner-item {
+    color: #b7c3c8;
+}
+.footer__blog-1 {
+    max-width: 250px;
+}
+.footer__inner-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.footer__inner-title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: $green;
+}
+.footer__inner-text {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
+
+.footer__inner-map {
+    font-size: 13px;
+    color: #fff;
+    padding-left: 30px;
+    margin-bottom: 13px;
+    line-height: 1.5em;
+    position: relative;
+}
+.footer__inner-map::before {
+    content: "\f041";
+    font-size: 16px;
+    color: $green;
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 0;
+}
+
+.footer__inner-phone {
+    font-size: 13px;
+    color: #fff;
+    padding-left: 30px;
+    position: relative;
+}
+.footer__inner-phone::before {
+    content: "\f095";
+    font-size: 16px;
+    color: $green;
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 0;
+}
+
+.footer__blog-2, .footer__blog-3 {
+    max-width: 215px;
+}
+.footer__menu-item {
+    padding-left: 20px;
+    margin-bottom: 13px;
+    position: relative;
+}
+.footer__menu-item::before {
+    content: "\f105";
+    color: $green;
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 0;
+}
+.footer__menu-link {
+    color: #b7c3c8;
+}
+
+.footer__box-images {
+    margin-bottom: 30px;
+}
+.footer__box-link {
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.footer__form-title {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer__form {
+    position: relative;
+    width: 100%;
+}
+.footer__form-input {
+    height: 40px;
+    color: #fff;
+    background: #2f3c43;
+    border: none;
+    padding-left: 13px;
+    padding-right: 55px;
+    width: 100%;
+}
+.footer__form-input::placeholder {
+    color: #697378;
+}
+
+.footer__inner-item.footer__blog-4 {
+    max-width: 260px;
+    width: 100%;
+}
+.footer__form-button {
+    background: $green;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 42px;
+    height: 100%;
+    cursor: pointer;
+}
+.footer__form-button::before {
+    content: "\f124";
+    font-family: 'icomoon' !important;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.footer__bottom {
+    text-align: center;
+    border-top: 1px solid #424d53;
+    padding: 20px 0 30px;
+    
+}
+.footer__bottom-text {
+    color: #919699;
+}
